@@ -153,8 +153,8 @@
                 <h1>Advanced Features</h1>
                 <div class="column half">
                     <img src="http://placehold.it/640x480" alt="Pantheon notifications" />
-                    <h3>Stay Informed</h3>
-                    <p>Apps can pop up relevant info unobtrusively while still letting you act on or dismiss it. Notifications are organized based on priority, and you can even toggle them per-app from the System Settings app. Enter do-not-disturb mode to completely hide and mute notifications when you’re working on something important or presenting.</p>
+                    <h3>Stay Notified</h3>
+                    <p>Apps pop up relevant notifications unobtrusively while still letting you act on or dismiss them. Enter do-not-disturb mode to completely hide and mute notifications when you’re working on something important or presenting.</p>
                 </div>
                 <div class="column half">
                     <img src="http://placehold.it/640x480" alt="Slingshot" />
