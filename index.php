@@ -151,12 +151,12 @@
             </div>
             <div class="row">
                 <div class="column half">
-                    <img src="http://placehold.it/640x480" alt="Pantheon notifications" />
+                    <img src="images/screenshots/notifications.png" alt="Pantheon notifications" />
                     <h3>Stay Notified</h3>
                     <p>Apps pop up relevant notifications unobtrusively while still letting you act on or dismiss them. Enter do-not-disturb mode to completely hide and mute notifications when you’re working on something important or presenting.</p>
                 </div>
                 <div class="column half">
-                    <img src="http://placehold.it/640x480" alt="Slingshot" />
+                    <img src="http://placehold.it/324x192" alt="Slingshot" />
                     <h3>3 Ways to Explore Apps</h3>
                     <p>See and launch all your installed apps. View them in an alphabetical grid or organized by category, or quickly search by name or keyword. Right-click an app for quick actions and drag your favorite apps to the dock.</p>
                 </div>
