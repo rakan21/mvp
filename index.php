@@ -150,12 +150,14 @@
                 </div>
             </div>
             <div class="row" id="advanced-features">
-                <h1>Advanced features</h1>
+                <h1>Advanced Features</h1>
                 <div class="column half">
-                    <h3>Stay informed</h3>
+                    <img src="http://placehold.it/640x480" alt="Pantheon notifications" />
+                    <h3>Stay Informed</h3>
                     <p>Apps can pop up relevant info unobtrusively while still letting you act on or dismiss it. Notifications are organized based on priority, and you can even toggle them per-app from the System Settings app. Enter do-not-disturb mode to completely hide and mute notifications when you’re working on something important or presenting.</p>
                 </div>
                 <div class="column half">
+                    <img src="http://placehold.it/640x480" alt="Slingshot" />
                     <h3>3 Ways to Explore Apps</h3>
                     <p>See and launch all your installed apps. View them in an alphabetical grid or organized by category, or quickly search by name or keyword. Right-click an app for quick actions and drag your favorite apps to the dock.</p>
                 </div>
