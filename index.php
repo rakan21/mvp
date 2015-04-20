@@ -150,7 +150,7 @@
                 </div>
             </div>
             <div class="row" id="advanced-features">
-                <h2>Advanced features</h2>
+                <h1>Advanced features</h1>
                 <div class="column half">
                     <h3>Stay informed</h3>
                     <p>Apps can pop up relevant info unobtrusively while still letting you act on or dismiss it. Notifications are organized based on priority, and you can even toggle them per-app from the System Settings app. Enter do-not-disturb mode to completely hide and mute notifications when you’re working on something important or presenting.</p>
