@@ -10,12 +10,32 @@ if (isset($_POST['token'])) {
     $description = $_POST['description'];
     $email       = $_POST['email'];
 
+    $cryptMail = crypt(base64_encode($email), $config['salt']);
+
+    // Find customer_id from cryptMail in our database
+    // $query = 'SELECT `customer_id` FROM `Customers` WHERE `email` = `'.$cryptMail.'`';
+    // $result = $db->query($query)
+    $customer_id = false;
+
+    // Create a new customer on Stripe's servers
+    if ( !$customer_id ) {
+        try {
+            $customer = Stripe_Customer::create(array(
+                'source' => $token,
+                'email' => $email
+            ));
+            $customer_id = $customer['id'];
+        } catch(Stripe_Error $e) {
+            echo 'error';
+        }
+    }
+
     // Create the charge on Stripe's servers - this will charge the user's card
     try {
         $charge = Stripe_Charge::create(array(
             'amount' => $amount,
             'currency' => 'usd',
-            'card' => $token,
+            'customer' => $customer_id,
             'description' => $description,
             'receipt_email' => $email,
         ));
