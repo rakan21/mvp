@@ -10,10 +10,10 @@ if (isset($_POST['token'])) {
     $description = $_POST['description'];
     $email       = $_POST['email'];
 
-    $cryptMail = crypt(base64_encode($email), $config['salt']);
+    $hash_mail = hash('sha512', $email, $config['salt']);
 
-    // Find customer_id from cryptMail in our database
-    // $query = 'SELECT `customer_id` FROM `Customers` WHERE `email` = `'.$cryptMail.'`';
+    // Find customer_id from hash_mail in our database
+    // $query = 'SELECT `customer_id` FROM `Customers` WHERE `email` = `'.$hash_mail.'`';
     // $result = $db->query($query)
     $customer_id = false;
 
