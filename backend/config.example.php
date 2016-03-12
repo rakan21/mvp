@@ -12,8 +12,12 @@ $config = array(
 
     'slack_token' => 'asdf-1234567890-7418529630-a7854123692-8412487519',
 
-    'database'         => '',
-    'salt'             => '78r6789ea8ASTS9aS9E44a8d4va96s4d',
+    'db_url'      => 'localhost',
+    'db_name'     => 'mvp',
+    'db_user'     => 'elementary',
+    'db_password' => 'I<3Rabbitbot',
+
+    'salt' => '78r6789ea8ASTS9aS9E44a8d4va96s4d',
 
     'twitter_consumer_key'    => 'test_ckey',
     'twitter_consumer_secret' => 'test_csecret',
